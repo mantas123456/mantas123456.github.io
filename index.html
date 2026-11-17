@@ -124,6 +124,8 @@ h1 {
 }
 .btn.primary { background: var(--accent); color: var(--surface); }
 .btn:hover { filter: brightness(1.08); }
+.cv { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.cv-label { font-family: var(--font-mono); font-size: 12.5px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 
 /* Readings strip */
 .readings {
@@ -268,18 +270,23 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
       <p class="lede">Measurement scientist and laboratory quality professional with <strong>14+ years</strong> in energy and environmental testing. I've worked through an ISO/IEC 17025 accreditation from start to finish, run and maintained analytical instruments and test rigs, and I use Python to turn lab data into models and reports people can act on.</p>
       <div class="meta">
         <span>Żebbuġ, Malta</span>
-        <span>Open to roles in laboratory quality, metrology and data</span>
+        <span>Open to roles in laboratory quality, metrology and data · Available immediately</span>
       </div>
       <div class="actions">
         <a class="btn primary" href="#contact">Contact</a>
         <a class="btn" href="#experience">See experience</a>
         <a class="btn" href="https://github.com/mantas123456">GitHub</a>
       </div>
+      <div class="cv" aria-label="Download CV">
+        <span class="cv-label">Download CV</span>
+        <a class="btn" href="cv/Mantas_Valantinavicius_CV_lab.pdf" download>Lab &amp; quality CV (PDF)</a>
+        <a class="btn" href="cv/Mantas_Valantinavicius_CV_data.pdf" download>Data CV (PDF)</a>
+      </div>
     </div>
     <div class="readings" aria-label="Key figures">
       <div class="reading"><div class="v">14+</div><div class="l">years in lab &amp; research work</div></div>
       <div class="reading"><div class="v">17025</div><div class="l">accreditation, from first documents to assessment</div></div>
-      <div class="reading"><div class="v">8 yrs</div><div class="l">heating-appliance testing at LEI</div></div>
+      <div class="reading"><div class="v">8 yrs</div><div class="l">in an accredited testing laboratory (LEI)</div></div>
       <div class="reading"><div class="v">6 yrs</div><div class="l">research support, University of Malta</div></div>
     </div>
   </div>
@@ -342,6 +349,7 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
             <ul>
               <li>Looked after the technical side of a research laboratory, and managed the lab for a temporary period.</li>
               <li>Wrote standard operating procedures for laboratory equipment and methods.</li>
+              <li>Built Python and Power BI workflows for research data and ran CFD simulations (OpenFOAM).</li>
             </ul>
           </div>
         </div>
@@ -412,6 +420,12 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
           <div class="chips"><span class="chip">Metrology</span><span class="chip">ISO/IEC 17025</span><span class="chip">SciPy</span><span class="chip">pytest</span></div>
         </div>
         <div class="repo">
+          <a class="repo-name" href="https://github.com/mantas123456/energy-data-pipeline">energy-data-pipeline ↗</a>
+          <h3>Electricity data pipeline</h3>
+          <p>ENTSO-E API → PostgreSQL → SQL models → data-quality checks → day-ahead load forecast, run daily by GitHub Actions.</p>
+          <div class="chips"><span class="chip">Python</span><span class="chip">SQL</span><span class="chip">PostgreSQL</span><span class="chip">Docker</span><span class="chip">GitHub Actions</span></div>
+        </div>
+        <div class="repo">
           <a class="repo-name" href="https://github.com/mantas123456/energy-forecasting-dashboard">energy-forecasting-dashboard ↗</a>
           <h3>Day-ahead energy demand forecasting</h3>
           <p>Hourly demand for residential, school, factory and EV-charging loads, with leak-free features and a five-fold rolling backtest. XGBoost cuts error by 30–48% against the better of two naive baselines, and the README explains where linear models fail. Includes a Streamlit dashboard, tests and CI.</p>
@@ -459,6 +473,10 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
           <h3>Domains</h3>
           <div class="chips"><span class="chip">Solid biofuels</span><span class="chip">SRF</span><span class="chip">Heating appliances</span><span class="chip">Emissions</span><span class="chip">Packaging waste</span></div>
         </div>
+        <div class="skillrow">
+          <h3>Languages</h3>
+          <div class="chips"><span class="chip">Lithuanian (native)</span><span class="chip">English (fluent)</span><span class="chip">Russian (limited working)</span><span class="chip">German (elementary)</span></div>
+        </div>
       </div>
     </div>
   </section>
@@ -482,7 +500,7 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
         </div>
         <div class="edu-item">
           <div class="when">In progress</div>
-          <div><h3>IBM Data Science Professional Certificate</h3><p>Coursera · <a href="https://www.credly.com/badges/2cc5abf2-dff8-43aa-9d68-e7323cf02464/public_url">Data Science Orientation badge</a></p></div>
+          <div><h3>IBM Data Science Professional Certificate — in progress</h3><p>4 courses completed: Data Science Orientation, What is Data Science?, Tools for Data Science, Data Science Methodology</p><p>Coursera · <a href="https://www.credly.com/badges/2cc5abf2-dff8-43aa-9d68-e7323cf02464/public_url">Data Science Orientation badge</a></p></div>
         </div>
       </div>
     </div>
@@ -493,6 +511,8 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
     <div class="body">
       <h2>Contact</h2>
       <div class="contact-grid">
+        <div class="contact-line"><span class="k">Email</span><a href="mailto:mantas.valantinavicius@gmail.com">mantas.valantinavicius@gmail.com</a></div>
+        <div class="contact-line"><span class="k">Phone</span><a href="tel:+35677086421">+356 7708 6421</a></div>
                 <div class="contact-line"><span class="k">LinkedIn</span><a href="https://www.linkedin.com/in/mantas-valantinavicius">linkedin.com/in/mantas-valantinavicius</a></div>
         <div class="contact-line"><span class="k">GitHub</span><a href="https://github.com/mantas123456">github.com/mantas123456</a></div>
         <div class="contact-line"><span class="k">Location</span><span>Żebbuġ, Malta</span></div>
