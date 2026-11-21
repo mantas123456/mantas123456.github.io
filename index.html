@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mantas Valantinavičius</title>
-<meta name="description" content="Measurement scientist and laboratory quality professional in Malta. ISO/IEC 17025, instrumentation, energy testing and data science.">
-<meta property="og:title" content="Mantas Valantinavičius · Measurement science, lab quality and data">
-<meta property="og:description" content="14 years in research and testing labs (2011-2025): ISO/IEC 17025, instrumentation, emissions measurement, Python and data projects.">
+<meta name="description" content="Measurement scientist in Malta: measurement science, environmental compliance data and laboratory quality. Open to roles in laboratory quality, metrology, environmental and sustainability compliance, and data.">
+<meta property="og:title" content="Mantas Valantinavičius · Measurement science, environmental compliance data, lab quality">
+<meta property="og:description" content="14 years in research and testing labs (2011–2025): ISO/IEC 17025, emissions measurement, packaging-waste and EU sustainability reporting, Python and data projects.">
 <meta property="og:type" content="profile">
 <meta property="og:url" content="https://mantas123456.github.io/">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%230e6a72'/%3E%3Ctext x='16' y='21.5' font-family='monospace' font-size='14' font-weight='700' fill='white' text-anchor='middle'%3EMV%3C/text%3E%3C/svg%3E">
@@ -177,6 +177,7 @@ h2 {
 .strength .rank { font-family: var(--font-mono); font-size: 12px; color: var(--accent); }
 .strength h3 { font-size: 1.02rem; font-weight: 600; }
 .strength p { margin: 0; color: var(--muted); font-size: 15px; }
+.strength:last-child:nth-child(odd) { grid-column: 1 / -1; }
 
 /* Timeline */
 .roles { display: grid; gap: 28px; }
@@ -269,18 +270,20 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
 <header class="hero">
   <div class="wrap hero-inner">
     <div class="hero-card">
-      <div class="kicker">Measurement science · Laboratory quality · Data</div>
+      <div class="kicker">Measurement science · Environmental compliance data · Lab quality</div>
       <h1>Mantas Valantinavičius</h1>
-      <p class="lede">Measurement scientist and laboratory quality professional with <strong>14 years</strong> in research and testing labs (2011-2025). I've worked through an ISO/IEC 17025 accreditation from start to finish, run and maintained analytical instruments and test rigs, and I use Python to turn lab data into models and reports people can act on.</p>
+      <p class="lede">Measurement scientist with <strong>14 years</strong> in research and testing labs (2011–2025). I was part of the team that took solid biofuel and SRF testing through ISO/IEC 17025 accreditation, measured emissions against regulatory limits, and since 2025 prepare packaging-waste reports for Lithuania's GPAIS register. I use Python to turn lab and compliance data into reports people can act on.</p>
       <div class="meta">
         <span>Żebbuġ, Malta</span>
-        <span>Open to roles in laboratory quality, metrology and data · Available immediately</span>
+        <span>Open to roles in laboratory quality, metrology, environmental and sustainability compliance, and data · Available immediately</span>
       </div>
       <div class="actions">
         <a class="btn primary" href="#contact">Contact</a>
         <a class="btn" href="cv/">Full CV</a>
         <a class="btn" href="#experience">See experience</a>
+        <a class="btn" href="https://www.linkedin.com/in/mantas-valantinavicius">LinkedIn</a>
         <a class="btn" href="https://github.com/mantas123456">GitHub</a>
+        <a class="btn" href="mailto:mantas.valantinavicius@gmail.com">Email</a>
       </div>
     </div>
     <div class="readings" aria-label="Key figures">
@@ -303,6 +306,11 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
           <span class="rank">Primary</span>
           <h3>Laboratory &amp; quality systems</h3>
           <p>ISO/IEC 17025 and 17020 accreditation work, SOP writing, method compliance, staff training and day-to-day lab supervision.</p>
+        </div>
+        <div class="strength">
+          <span class="rank">Core</span>
+          <h3>Environmental compliance &amp; reporting</h3>
+          <p>Packaging-waste reporting (GPAIS), CBAM, Scope 3, CSRD scope, emissions against regulatory limits, and waste and residue characterisation.</p>
         </div>
         <div class="strength">
           <span class="rank">Core</span>
@@ -332,11 +340,11 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
         <div class="role">
           <div class="when">2025 – present</div>
           <div>
-            <h3>Packaging-waste data &amp; GPAIS reporting</h3>
-            <div class="org">Independent work</div>
+            <h3>Environmental compliance data (independent work)</h3>
             <ul>
-              <li>Prepare packaging and waste data for submission to Lithuania's GPAIS reporting system.</li>
-              <li>Explore automation of recurring compliance reporting with Python.</li>
+              <li>Prepare packaging and packaging-waste reports for Lithuanian producers in the national GPAIS register: process client sales and packaging data, derive packaging weights per product unit, check and submit.</li>
+              <li>Designed a Python pipeline (mapping, cleaning, validation, report generation) to automate this reporting across many client companies.</li>
+              <li>Writing the ESG Workflows Handbook (CBAM, Scope 3, CSRD).</li>
             </ul>
           </div>
         </div>
@@ -347,9 +355,11 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
             <h3>Research Support Officer II</h3>
             <div class="org">University of Malta</div>
             <ul>
-              <li>Looked after the technical side of a research laboratory, and managed the lab for a temporary period.</li>
-              <li>Wrote standard operating procedures for laboratory equipment and methods.</li>
-              <li>Built Python and Power BI workflows for research data and ran CFD simulations (OpenFOAM).</li>
+              <li>Kept laboratory instruments running: calibration, preventive maintenance, repairs, fault finding.</li>
+              <li>Covered laboratory management on an interim basis, mainly the technical side.</li>
+              <li>Wrote the laboratory SOPs (GLP, GDP); kept records audit-ready.</li>
+              <li>Megalith project: CFD of wind flow, microclimate and moisture around Malta's prehistoric temples (OpenFOAM, ParaView, HPC); 32 cases validated against field sensor data; results fed a machine-learning erosion prediction model.</li>
+              <li>Python and Power BI for sensor data monitoring and reporting.</li>
             </ul>
           </div>
         </div>
@@ -365,11 +375,13 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
               <div>Engineer <span>Jan 2011 – Sep 2011</span></div>
             </div>
             <ul>
-              <li>Took part in the full ISO/IEC 17025 accreditation for solid biofuel and SRF testing, then helped maintain it; helped maintain the existing ISO/IEC 17020 accreditation.</li>
-              <li>Progressed from assistant to test lead on domestic heating-appliance campaigns within about three years, including long and overnight boiler runs.</li>
-              <li>Compared measured emissions against standard limits; monitored rigs through data-acquisition systems and fault-found analysers.</li>
-              <li>Trained and supervised three new staff and trained colleagues in numerical modelling.</li>
-              <li>Advised industrial sites on fuel quality; wrote technical deliverables for an Interreg project.</li>
+              <li>Boiler and combustion test campaigns with a senior colleague, including long and overnight runs; monitored parameters on data acquisition systems and measured flue-gas emissions against the limits in the standards.</li>
+              <li>Fuel, ash, residue, SRF and sewage sludge analysis: ICP-OES, ion chromatography, CHN/S elemental analysis, bomb calorimetry, ash fusibility, TGA-GC-MS, DSC.</li>
+              <li>Part of the team that took solid biofuel and SRF testing through ISO/IEC 17025 accreditation from start to finish, then maintained it; helped maintain the existing ISO/IEC 17020 accreditation.</li>
+              <li>Led the CFD and XDEM modelling for an agro-residue gasification and combustion prototype built and tested by the team (AGROBIOATENA).</li>
+              <li>Trained and supervised three new staff; trained colleagues in numerical modelling.</li>
+              <li>Interreg BEA-APP (2016–2019): technical research and deliverables.</li>
+              <li>Occasionally advised industrial sites on fuel.</li>
             </ul>
           </div>
         </div>
@@ -401,7 +413,7 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
         <div class="project">
           <span class="tag">Research visit · Luxembourg</span>
           <h3>Extended DEM modelling</h3>
-          <p>Gained CFD and XDEM simulation skills through a COST-funded research visit, University of Luxembourg (LuXDEM), 2016, later applied to reactor and fuel-bed modelling at LEI.</p>
+          <p>COST-funded research visit, University of Luxembourg (LuXDEM), 2016: coupled CFD–XDEM modelling of granular fuel beds.</p>
         </div>
       </div>
     </div>
@@ -416,7 +428,7 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
         <div class="repo">
           <a class="repo-name" href="https://github.com/mantas123456/esg-workflows-handbook">esg-workflows-handbook ↗</a>
           <h3>ESG Workflows Handbook</h3>
-          <p>Free public guide to CBAM, Scope 3, VSME and CSRD/ESRS workflows for EU SMEs. The CBAM and Scope 3 tracks are drafted; VSME and CSRD are planned.</p>
+          <p>Free step-by-step CBAM, Scope 3, VSME and CSRD/ESRS workflows for EU SMEs, with regulatory facts tracked with sources and check dates. CBAM and Scope 3 drafted, CSRD in progress.</p>
           <div class="repo-links"><a class="primary" href="https://mantas123456.github.io/esg-workflows-handbook/">Read the handbook ↗</a><a href="https://github.com/mantas123456/esg-workflows-handbook">Repository ↗</a></div>
           <div class="chips"><span class="chip">CBAM</span><span class="chip">Scope 3</span><span class="chip">VSME</span><span class="chip">CSRD / ESRS</span></div>
         </div>
@@ -474,7 +486,11 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
         </div>
         <div class="skillrow">
           <h3>Instruments</h3>
-          <div class="chips"><span class="chip">TGA-GC-MS</span><span class="chip">DSC</span><span class="chip">Flue-gas analysers</span><span class="chip">Data acquisition</span><span class="chip">Test rigs</span></div>
+          <div class="chips"><span class="chip">ICP-OES</span><span class="chip">Ion chromatography</span><span class="chip">CHN/S</span><span class="chip">Calorimetry</span><span class="chip">TGA-GC-MS</span><span class="chip">DSC</span><span class="chip">Flue-gas analysers</span><span class="chip">Data acquisition</span><span class="chip">Test rigs</span></div>
+        </div>
+        <div class="skillrow">
+          <h3>Environmental reporting</h3>
+          <div class="chips"><span class="chip">GPAIS packaging-waste</span><span class="chip">CBAM</span><span class="chip">Scope 3 (GHG Protocol)</span><span class="chip">CSRD/ESRS scope</span></div>
         </div>
         <div class="skillrow">
           <h3>Data &amp; modelling</h3>
@@ -486,7 +502,7 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
         </div>
         <div class="skillrow">
           <h3>Domains</h3>
-          <div class="chips"><span class="chip">Solid biofuels</span><span class="chip">SRF</span><span class="chip">Heating appliances</span><span class="chip">Emissions</span><span class="chip">Packaging waste</span></div>
+          <div class="chips"><span class="chip">Solid biofuels</span><span class="chip">Solid recovered fuel (SRF)</span><span class="chip">Heating appliances</span><span class="chip">Emissions</span><span class="chip">Packaging waste</span></div>
         </div>
         <div class="skillrow">
           <h3>Languages</h3>
@@ -503,7 +519,7 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
       <div class="edu">
         <div class="edu-item">
           <div class="when">2011 – 2017</div>
-          <div><h3>Doctoral studies and research, Energetics and Power Engineering</h3><p>Lithuanian Energy Institute (thesis not defended)</p></div>
+          <div><h3>Doctoral studies and research, Energetics and Power Engineering</h3><p>Lithuanian Energy Institute, 2011–2017 (thesis not defended)</p></div>
         </div>
         <div class="edu-item">
           <div class="when">2009 – 2011</div>
@@ -516,6 +532,10 @@ footer { border-top: 1px solid var(--line); padding: 20px 0 40px; font-family: v
         <div class="edu-item">
           <div class="when">In progress</div>
           <div><h3>IBM Data Science Professional Certificate</h3><p>Coursera · in progress, 4 courses completed: Data Science Orientation, What is Data Science?, Tools for Data Science, Data Science Methodology</p><p><a href="https://www.credly.com/badges/2cc5abf2-dff8-43aa-9d68-e7323cf02464/public_url">Data Science Orientation badge</a></p></div>
+        </div>
+        <div class="edu-item">
+          <div class="when">Publications</div>
+          <div><h3>Co-author of 5 peer-reviewed journal articles and 3 conference papers</h3><p>Biomass characterisation, combustion, fluid dynamics · <a href="cv/#publications">Full list in the CV</a></p></div>
         </div>
       </div>
     </div>

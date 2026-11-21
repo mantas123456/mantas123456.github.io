@@ -1,4 +1,4 @@
 # Other CV PDFs are kept locally and not published.
-# The public full CV (/cv/) and its contact-free PDF are published.
+# The public full CV (/cv/) and its PDF (email only, no phone) are published.
 cv/*.pdf
 !cv/Mantas_Valantinavicius_CV.pdf
